@@ -87,10 +87,7 @@ export default {
 
   },
   computed: {
-    ...mapGetters(['currentUsername']),
-    ifLogined() {
-      return this.currentUsername !== null;
-    },
+    ...mapGetters(["currentUsername"]),
     isMe() {
       const { username, currentUsername } = this;
       return username === currentUsername;

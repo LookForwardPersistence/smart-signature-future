@@ -39,7 +39,6 @@ export const TimeLine = '最新发布';
 export default {
   name: 'ArticlesList',
   computed: {
-    ...mapGetters(['currentUsername']),
     displayAboutScroll() {
       return this.isTheEndOfTheScroll
         ? '🎉 哇，你真勤奋，所有 comments 已经加载完了～ 🎉'

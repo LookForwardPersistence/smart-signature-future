@@ -21,7 +21,6 @@ export default {
     },
   },
   computed: {
-    ...mapGetters(['currentUsername']),
     displayAboutScroll() {
       if (this.isTheEndOfTheScroll) {
         return '🎉 哇，你真勤奋，所有文章已经加载完了～ 🎉';
